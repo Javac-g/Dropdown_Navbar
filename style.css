@@ -1,0 +1,182 @@
+
+button {
+
+
+    color: white;
+    padding: 16px 14px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    width:100px;
+
+}
+.drop1 ::after{
+
+    visibility: visible;
+    content: '***';
+}
+
+.drop1 ::before{
+    visibility: visible;
+    content: 'variant1 ▾';
+}
+.drop1{
+
+    background-color: #262626;
+
+}
+.drop2{
+    background-color: #262626;
+}
+.drop3{
+background-color: #262626;
+
+}
+.drop4{
+    background-color: #262626;
+}
+.drop1:hover, .drop1:focus {
+    background-color: orange;
+}
+.drop2:hover, .drop2:focus {
+    background-color: orange;
+}
+.drop3:hover, .drop3:focus {
+    background-color: orange;
+}
+.drop4:hover, .drop4:focus {
+    background-color: orange;
+}
+.menu {
+
+    float: right;
+
+}
+
+.container {
+    height: 70px;
+    width: 1000px;
+    display: inline-block;
+    background-color: #262626;
+    position: relative;
+}
+
+.brand{
+    position: absolute;
+    height: 70px;
+    font-size: 1.4em;
+    padding: 16px;
+    color: white;
+    text-transform: uppercase;
+    float: left;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.content1 {
+    display: none;
+    text-align: center;
+    background-color: #262626;
+    width:103px ;
+    position: absolute;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    height:25px;
+
+
+
+}
+.content1 a:hover {
+    background-color: darkorange;
+
+}
+.content2 {
+    display: none;
+    text-align: center;
+    background-color: #262626;
+    width:103px ;
+    position: absolute;
+    left:691px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    height:25px;
+
+
+}
+.content2 a:hover {
+
+    background-color: darkorange;
+}
+.content3 {
+    display: none;
+    text-align: center;
+    background-color: #262626;
+    width:103px ;
+    left:793px;
+    position:absolute;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content3 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    height:25px;
+
+}
+.content3 a:hover {
+    text-decoration: none;
+    background-color: darkorange;
+}
+.content4 {
+    display: none;
+    text-align: center;
+    background-color: #262626;
+    width:103px ;
+    left:897px;
+    position:absolute;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.content4 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    height:25px;
+
+
+}
+.content4 a:hover {
+    text-decoration: none;
+    background-color: darkorange;
+}
+
+.container a:hover {
+    text-decoration: none;
+    background-color: darkorange;
+}
+
+.show {
+
+    display: grid;
+}
